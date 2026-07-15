@@ -16,9 +16,10 @@ test_hd
 version.mac
 *_test
 configure
+configure~
 configure.scan
 configure.lineno
-./config.*
+/config.*
 aclocal.m4
 *.tar.gz
 *.la
@@ -32,7 +33,7 @@ libtool
 *.bbg
 *.da
 results
-./Makefile
+/Makefile
 Makefile.in
 .*.swp
 python-setup.txt
@@ -41,6 +42,15 @@ yasm_python.c
 _yasm.pxi
 yasm.pyx
 build
+genmacro
+genmodule
+genperf
+genstring
+genversion
+re2c
+vsyasm
+ytasm
+yasm
 yasm.so
 x86cpu.c
 x86insn_nasm.gperf
