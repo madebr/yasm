@@ -50,7 +50,7 @@ genversion
 re2c
 vsyasm
 ytasm
-yasm
+/yasm
 yasm.so
 x86cpu.c
 x86insn_nasm.gperf
